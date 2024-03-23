@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Franxurter Totally Fat';
+	src: url(FranxurterTotallyFat-X3G4Z.ttf);
+}
+
+@font-face {
+	font-family: 'Franxurter Totally Medium';
+	src: url(FranxurterTotallyMedium-gxwjp.ttf);
+}
+
+@font-face {
+	font-family: 'Miskan';
+	src: url(Miskan.ttf);
+}
+
+body {
+  background-image: url('try uk.png');
+  background-size: 1080px
+} 
+
+div {
+	background-color: yellow;
+	padding: 20px;
+	display: none;
+  }
+	
+  span:hover + div {
+	display: block;
+  }
+
+h2 {
+	text-align: center;
+	color:#fcf2f8;
+	font-family: Miskan;
+	text-shadow: 2px 2px #ff0000;
+	font-size: 85px;
+	 margin:0;
+    padding:0;
+}
+
+table {
+	text-align:center;
+	border-spacing:5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+
+th
+{
+	text-align: center;
+	background-color:#1e167a;
+	color:#F0F0F0;
+	font-family: Franxurter Totally Fat;
+	border-radius: 7px;
+	font-size: 25px
+}
+
+td
+{
+	text-align: center;
+	color:#39314D;
+	font-family: Franxurter Totally Medium;
+	font-size: 20px;
+	border-radius: 7px;
+	
+}
+.bidey {
+	color: #9f44b8;
+}
+
+.sun
+{
+	color: #db2828;
+}
+
+tr {
+	
+	background-color: #E8E4E3;
+    line-height: 15px;
+
+}
+
+a
+{
+	text-decoration:none;
+}
+
+h1
+{
+	font-size: 350px;
+	font-family: Miskan;
+	text-shadow: 5px 5px #0e408c;
+	color: FCFCFC;
+	text-align:center;
+	 margin:0;
+    padding:0;
+}
+
